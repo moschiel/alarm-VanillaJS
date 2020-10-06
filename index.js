@@ -8,7 +8,7 @@ function tempo(num, t){
     let option = document.createElement("OPTION");
     
     //3 - setando atributo "value" tag <option>
-      option.setAttribute("value", `${i}`);
+    option.setAttribute("value", `${i}`);
     
     //4 - criando elemento de texto
     let valorNumerico = document.createTextNode(`${i}`)
@@ -74,7 +74,7 @@ function contagemRegressiva() {
 
 		//Definir a cor do botao
     btn.style.backgroundColor = "gray";
-	} 
+	}
 
 
   //agora o setInterval nao vai ser criado multiplas vezes, 
