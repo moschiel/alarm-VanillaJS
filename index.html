@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link defer rel="stylesheet" href="style.css">
+	<script defer src="./index.js" type="text/javascript"></script>
+	<title>Document</title>
+</head>
+<body>
+
+	<audio id="mySound">
+		<source src="./alarm.mp3" type="audio/ogg">
+		<source src="./alarm.mp3" type="audio/mpeg">
+	</audio>
+
+<div class="center">
+	
+	<h2>Minutos</h2>
+	<select id="min"></select>
+	
+	<h2>Segundos</h2>
+	<select id="seg"></select>
+	
+  <button id="btn" onclick="contagemRegressiva()">Começar</button>
+  
+  <p id="tempo">0</p>
+</div>
+
+</body>
+</html>
+
+
